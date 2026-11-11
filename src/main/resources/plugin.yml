@@ -1,0 +1,18 @@
+name: CursedTechniques
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+author: EnderDevelopment
+description: Working Jujutsu Kaisen inspired cursed techniques.
+commands:
+  cursed:
+    description: Manage cursed energy and techniques.
+    usage: /cursed <help|energy|technique|domain|reverse|blackflash|limitless|cleave|boogie>
+    aliases: [ct]
+permissions:
+  cursed.use:
+    description: Allows use of cursed techniques.
+    default: true
+  cursed.admin:
+    description: Allows cursed energy administration.
+    default: op
